@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12635F901DECED06002AF509 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12635F8F1DECED06002AF509 /* TreeViewController.swift */; };
+		1F1952761DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F1952741DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodeld */; };
 		CE2DAA891DA421AB00B809EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DAA881DA421AB00B809EC /* AppDelegate.swift */; };
-		CE2DAA8B1DA421AB00B809EC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DAA8A1DA421AB00B809EC /* FirstViewController.swift */; };
-		CE2DAA8D1DA421AB00B809EC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DAA8C1DA421AB00B809EC /* SecondViewController.swift */; };
-		CE2DAA901DA421AB00B809EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DAA8E1DA421AB00B809EC /* Main.storyboard */; };
 		CE2DAA921DA421AB00B809EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2DAA911DA421AB00B809EC /* Assets.xcassets */; };
 		CE2DAA951DA421AB00B809EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DAA931DA421AB00B809EC /* LaunchScreen.storyboard */; };
+		CE2DAAAA1DA4385C00B809EC /* List Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2DAAA81DA4385C00B809EC /* List Filled.png */; };
+		CE2DAAAB1DA4385C00B809EC /* Home Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2DAAA91DA4385C00B809EC /* Home Filled.png */; };
+		CE5462A01DF23DAD00033D58 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54629F1DF23DAD00033D58 /* PopUpViewController.swift */; };
+		CEB00BD51DB41C1E00C3357D /* PlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00BD41DB41C1E00C3357D /* PlantView.swift */; };
+		D0132C2B1DF21E6100162690 /* Tree+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0132C291DF21E6100162690 /* Tree+CoreDataProperties.swift */; };
+		D0132C2C1DF21E6100162690 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0132C2A1DF21E6100162690 /* Tree.swift */; };
+		E51EC4CC1DA8320C00BA24D5 /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51EC4CB1DA8320C00BA24D5 /* GardenViewController.swift */; };
+		E54BE2891DA7164F001B45FE /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BE2881DA7164F001B45FE /* Plant.swift */; };
+		E54BE28B1DA72E5D001B45FE /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BE28A1DA72E5D001B45FE /* EntryViewController.swift */; };
+		E54BE2B31DA77C2A001B45FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54BE2B11DA77C2A001B45FE /* Main.storyboard */; };
+		E58392581DF53A1D00200F87 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58392561DF53A1D00200F87 /* TableViewCell.swift */; };
+		E58392591DF53A1D00200F87 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58392571DF53A1D00200F87 /* TableViewCell.xib */; };
+		E5EBDA881DC172DF0084CF74 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EBDA871DC172DF0084CF74 /* help.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12635F8F1DECED06002AF509 /* TreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeViewController.swift; path = ../TreeViewController.swift; sourceTree = "<group>"; };
+		1F1952751DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTreeReminderDataBase.xcdatamodel; sourceTree = "<group>"; };
 		CE2DAA851DA421AB00B809EC /* Tree_Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree_Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2DAA881DA421AB00B809EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE2DAA8A1DA421AB00B809EC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CE2DAA8C1DA421AB00B809EC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		CE2DAA8F1DA421AB00B809EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE2DAA911DA421AB00B809EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2DAA941DA421AB00B809EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2DAA961DA421AB00B809EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2DAAA81DA4385C00B809EC /* List Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List Filled.png"; sourceTree = "<group>"; };
+		CE2DAAA91DA4385C00B809EC /* Home Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled.png"; sourceTree = "<group>"; };
+		CE54629F1DF23DAD00033D58 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		CEB00BD41DB41C1E00C3357D /* PlantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantView.swift; sourceTree = "<group>"; };
+		D0132C291DF21E6100162690 /* Tree+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tree+CoreDataProperties.swift"; path = "Assets.xcassets/Tree+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0132C2A1DF21E6100162690 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tree.swift; path = Assets.xcassets/Tree.swift; sourceTree = "<group>"; };
+		E51EC4CB1DA8320C00BA24D5 /* GardenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		E54BE2881DA7164F001B45FE /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		E54BE28A1DA72E5D001B45FE /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		E54BE2B21DA77C2A001B45FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58392561DF53A1D00200F87 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E58392571DF53A1D00200F87 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E5EBDA871DC172DF0084CF74 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +80,23 @@
 		CE2DAA871DA421AB00B809EC /* Tree_Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				12635F8F1DECED06002AF509 /* TreeViewController.swift */,
 				CE2DAA881DA421AB00B809EC /* AppDelegate.swift */,
-				CE2DAA8A1DA421AB00B809EC /* FirstViewController.swift */,
-				CE2DAA8C1DA421AB00B809EC /* SecondViewController.swift */,
-				CE2DAA8E1DA421AB00B809EC /* Main.storyboard */,
+				E51EC4CB1DA8320C00BA24D5 /* GardenViewController.swift */,
+				1F1952741DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodeld */,
+				E54BE2B11DA77C2A001B45FE /* Main.storyboard */,
+				E58392561DF53A1D00200F87 /* TableViewCell.swift */,
+				E58392571DF53A1D00200F87 /* TableViewCell.xib */,
+				E54BE28A1DA72E5D001B45FE /* EntryViewController.swift */,
+				D0132C291DF21E6100162690 /* Tree+CoreDataProperties.swift */,
+				D0132C2A1DF21E6100162690 /* Tree.swift */,
+				E54BE2881DA7164F001B45FE /* Plant.swift */,
+				CEB00BD41DB41C1E00C3357D /* PlantView.swift */,
+				CE54629F1DF23DAD00033D58 /* PopUpViewController.swift */,
 				CE2DAA911DA421AB00B809EC /* Assets.xcassets */,
+				CE2DAAA81DA4385C00B809EC /* List Filled.png */,
+				CE2DAAA91DA4385C00B809EC /* Home Filled.png */,
+				E5EBDA871DC172DF0084CF74 /* help.png */,
 				CE2DAA931DA421AB00B809EC /* LaunchScreen.storyboard */,
 				CE2DAA961DA421AB00B809EC /* Info.plist */,
 			);
@@ -99,6 +135,7 @@
 				TargetAttributes = {
 					CE2DAA841DA421AB00B809EC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W4EBPMCSVZ;
 					};
 				};
 			};
@@ -125,9 +162,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2DAAAA1DA4385C00B809EC /* List Filled.png in Resources */,
 				CE2DAA951DA421AB00B809EC /* LaunchScreen.storyboard in Resources */,
+				E58392591DF53A1D00200F87 /* TableViewCell.xib in Resources */,
+				E5EBDA881DC172DF0084CF74 /* help.png in Resources */,
 				CE2DAA921DA421AB00B809EC /* Assets.xcassets in Resources */,
-				CE2DAA901DA421AB00B809EC /* Main.storyboard in Resources */,
+				E54BE2B31DA77C2A001B45FE /* Main.storyboard in Resources */,
+				CE2DAAAB1DA4385C00B809EC /* Home Filled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +179,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2DAA8D1DA421AB00B809EC /* SecondViewController.swift in Sources */,
+				D0132C2B1DF21E6100162690 /* Tree+CoreDataProperties.swift in Sources */,
+				1F1952761DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodeld in Sources */,
+				CE5462A01DF23DAD00033D58 /* PopUpViewController.swift in Sources */,
+				E54BE2891DA7164F001B45FE /* Plant.swift in Sources */,
+				E51EC4CC1DA8320C00BA24D5 /* GardenViewController.swift in Sources */,
+				D0132C2C1DF21E6100162690 /* Tree.swift in Sources */,
+				E58392581DF53A1D00200F87 /* TableViewCell.swift in Sources */,
 				CE2DAA891DA421AB00B809EC /* AppDelegate.swift in Sources */,
-				CE2DAA8B1DA421AB00B809EC /* FirstViewController.swift in Sources */,
+				E54BE28B1DA72E5D001B45FE /* EntryViewController.swift in Sources */,
+				CEB00BD51DB41C1E00C3357D /* PlantView.swift in Sources */,
+				12635F901DECED06002AF509 /* TreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE2DAA8E1DA421AB00B809EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE2DAA8F1DA421AB00B809EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE2DAA931DA421AB00B809EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CE2DAA941DA421AB00B809EC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E54BE2B11DA77C2A001B45FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E54BE2B21DA77C2A001B45FE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,10 +304,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tree_Reminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Tree-Reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tree_Reminder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -266,10 +323,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tree_Reminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Tree-Reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tree_Reminder-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -292,8 +356,22 @@
 				CE2DAA9B1DA421AB00B809EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F1952741DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F1952751DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodel */,
+			);
+			currentVersion = 1F1952751DCE3D9B003D7BDA /* MyTreeReminderDataBase.xcdatamodel */;
+			path = MyTreeReminderDataBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE2DAA7D1DA421AB00B809EC /* Project object */;
 }
